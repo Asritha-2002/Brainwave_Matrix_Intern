@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.formm {
+  background-color: rgba(2, 24, 95, 0.683);
+  min-height: 60vh;
+  width: 50vw;
+  text-align: center;
+  margin-top: -4rem;
+  margin-left: 20%;
+  padding-top: 4%;
+  overflow: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 18px 12px silver;
+  overflow: hidden;
+}
+hr {
+  border: 1px solid rgba(91, 70, 70, 0.289);
+}
+body {
+  margin: 10%;
+  text-align: center;
+}
+
+body input {
+  outline: none;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 1rem;
+  margin-bottom: 2px;
+}
+header {
+  background: aquamarine;
+  opacity: 60%;
+  margin-top: -6.5%;
+  padding-top: 2%;
+}
+header h3 {
+  text-align: left;
+  color: rgba(140, 142, 7, 0.975);
+  animation-name: movingAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes movingAnimation {
+  20% {
+    transform: translateX(120px);
+    color: rgba(23, 152, 157, 0.801);
+  }
+  40% {
+    transform: translateX(170px);
+    color: rgb(141, 80, 5);
+  }
+  60% {
+    transform: translateX(230px);
+    color: rgb(153, 165, 14);
+  }
+  60% {
+    transform: translateX(280px);
+    color: rgba(158, 56, 155, 0.716);
+  }
+}
+button {
+  background-color: rgba(31, 17, 1, 0.096);
+  border: none;
+  border-radius: 4px;
+  color: beige;
+
+  transition: background-color 0.8s;
+  margin: 0.2rem;
+}
+button:hover {
+  background-color: rgba(45, 141, 109, 0.893);
+  color: silver;
+}
+.add {
+  margin-top: 8px;
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  background-color: rgba(3, 107, 107, 0.508);
+  opacity: 90%;
+  transition: background-color 0.6s;
+  transition: color 0.8s;
+}
+.add:hover {
+  background-color: rgba(25, 130, 235, 0.807);
+  color: rgba(193, 9, 9, 0.598);
+}
+#tCount {
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 1rem;
+  color: rgba(47, 9, 185, 0.89);
+}
+ol {
+  text-align: center;
+  margin-top: 6px;
+  gap: 3px;
+  display: grid;
+  grid-template-columns: 7fr 2fr 2fr 1fr 1fr 1fr 2fr;
+  margin-right: 13%;
+  margin-left: 13%;
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+li {
+  width: auto;
+  height: auto;
+  color: green;
+  background-color: white;
+  border-radius: 8px;
+  list-style-type: none;
+  margin: 0.2rem;
+}
+a {
+  margin-left: 32rem;
+  margin-top: 12rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+  text-decoration: none;
+  background-color: silver;
+  padding: 4px;
+  border-radius: 2px;
+  transition: background-color 0.6s;
+  transition: color 0.8s;
+}
+a:hover {
+  background-color: aquamarine;
+  color: white;
+}

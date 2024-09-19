@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <div class="formm">
+      <header>
+        <h3>TODO Application Using JAVASCRIPT</h3>
+
+        <div>
+          <input
+            type="text"
+            placeholder="enter your todo"
+            id="inputData"
+            required
+          />
+          <button
+            type="submit"
+            onclick="{insert()}"
+            id="addElement"
+            class="add"
+          >
+            Add
+          </button>
+          <h4 id="tCount"></h4>
+        </div>
+      </header>
+      <hr />
+      <main id="mainn">
+        <ol id="data">
+          <div id="todoList">
+            <h1></h1>
+          </div>
+        </ol>
+        <a href="/">Clear</a>
+      </main>
+
+      <script src="script.js" id="scriptt"></script>
+    </div>
+  </body>
+</html>
